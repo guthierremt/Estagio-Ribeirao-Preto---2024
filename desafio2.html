@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        const numero = parseInt(prompt("Digite um número:"));
+
+        function verificaSequenciaFibonacci(numero) {
+            let a = 0;
+            let b = 1;
+            let c;
+
+            // Verifica se o número é 0 ou 1
+            if (numero === a || numero === b) {
+                console.log("pertence à sequência de Fibonacci")
+            }
+            // Calcula a sequência de Fibonacci
+            while (true) {
+                c = a + b;
+                if (c === numero) {
+                    console.log("Pertence à sequência de Fibonacci")
+                    break;
+                } else if (c > numero) {
+                    console.log("Não pertence à sequência de Fibonacci")
+                    break;
+                }
+                // Atualiza os valores
+                a = b;
+                b = c;
+            }
+        }
+        verificaSequenciaFibonacci(numero)
+    </script>
+</body>
+
+</html>

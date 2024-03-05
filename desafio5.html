@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+        // Funcao que recebe uma STRING como entrada
+        function inverterString(string) {
+            let novaString = '';
+            // Itera sobre os caracteres da STRING de trás pra frente
+            for (let i = string.length - 1; i >= 0; i--) {
+                novaString += string[i];
+            }
+            return novaString;
+        }
+
+        const texto = '#JAPASSEI!';
+        const textoInvertido = inverterString(texto);
+        console.log(texto)
+        console.log(textoInvertido);
+    </script>
+</body>
+
+</html>

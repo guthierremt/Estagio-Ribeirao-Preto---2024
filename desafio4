@@ -1,0 +1,5 @@
+Ligaria duas lampadas(interruptor 1 e 2) e entraria em uma sala qualquer(sala3), 
+se a sala estivesse com a lampada desligada significaria que ela pertence
+ao interruptor que ficou desligado(3), voltaria pra sala e desligaria um dos
+interruptores que tinha ligado antes(interruptor 1) e voltaria em uma das duas salas restantes(sala 2),
+a sala que escolhi se tivesse acessa seria do interruptor(2) se tivesse apagada seria do interruptor(1)
